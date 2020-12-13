@@ -1,0 +1,238 @@
+{
+	box-sizing: border-box;
+}
+
+
+@media (max-width: 500px) {
+	.all-page{
+		width: 400px;
+	}
+}
+
+@media (max-width: 760px) {
+	.all-page{
+		width: 600px;
+	}
+}
+
+
+body{
+	margin: 0;
+}
+
+p{
+	font-family: 'Roboto', sans-serif;
+	font-size: 30px;	
+	text-align: justify;
+}
+
+h1{
+	color: white;
+	text-align: center;
+	margin: 10px;
+	text-shadow: 3px 2px silver;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	z-index: 3
+	padding: 10px;
+	white-space: nowrap;
+	font-size: 5em;
+}
+
+nav{
+	font-weight: bold;
+	font-family: 'Saira Condensed', sans-serif; 
+	margin: 30px 0;
+	text-align: center;
+	position: absolute;
+	top: 0;
+	right: 0;
+	padding-right: 20px;
+	margin-left: auto;
+	z-index: 4;
+	width: 80%;
+	display: flex;
+	justify-content: space-evenly;
+	white-space: nowrap;
+}
+
+nav a {
+	margin: 0;
+	color: white;	
+	text-decoration: none;
+	padding: 0;
+	display: flex;
+	 }
+
+nav a:hover{
+	text-decoration: underline;
+}
+
+li a{
+	color: black;
+}
+ul a:hover{
+	color: limegreen;
+}
+
+body{
+	font-family: 'Crimson Text', serif;
+}
+
+.header-1{
+padding: 10px;
+height: 250px;
+background-image: linear-gradient(to bottom, #000, #0003), url("images/hair.jpg");
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+display: flex;
+align-items: center;
+}
+
+.image1, .paragraphe1{
+	padding: 20px;
+}
+
+.image2, .paragraphe2{
+	padding: 20px;
+}
+
+.image3, .paragraphe3{
+	padding: 20px;
+}
+
+header{
+	white-space: nowrap;
+}
+
+.div1 a{
+	background: limegreen;
+	color: white;
+	text-decoration: none;
+	line-height: 1;
+	text-align: center;
+}
+
+.div2 a{
+	background: limegreen;
+	color: white;
+	text-decoration: none;
+	line-height: 1;
+	text-align: center;
+}
+
+.div3 a{
+	background: limegreen;
+	color: white;
+	text-decoration: none;
+	line-height: 1;
+	text-align: center;
+}
+
+.image1{
+	float: left;
+}
+
+.paragraphe1{
+	text-align: left;
+	padding-left: 20px;
+}
+
+.image2{
+	float: right;
+}
+
+.image3{
+	float: left;
+}
+
+.div1{
+	background-color: tan;
+	box-shadow: 0px 10px 30px;
+	margin: 50px;
+	padding: 50px;
+	padding-top: 10px;
+	border-radius: 20px;
+	width: 900px;
+	margin: 60px auto;
+}
+
+.div2{
+	background-color: tan;
+	margin: 50px;
+	box-shadow: 0px 10px 30px;
+	padding: 50px;
+	border-radius: 20px;
+	width: 900px;
+	margin: 60px auto;
+}
+
+.div3{
+	background-color: tan;
+	margin: 50px;
+	box-shadow: 0px 10px 30px;
+	padding: 50px;
+	border-radius: 20px;
+	width: 900px;
+	margin: 60px auto;
+}
+
+.container{
+	width: 700px;
+	margin: 60px auto;
+}
+
+.btn{
+	text-align: center;
+	font-family: 'Roboto' sans-serif;
+	padding: 10px, 15px;
+}
+
+.btn:hover{
+	text-decoration: underline;
+}
+
+li{
+	list-style: none;
+	padding-left: 0;
+	display: inline;
+	padding: 10px;
+	background-color: white;
+	color: tan;
+}
+
+#introduction p{
+	margin-bottom: 40px;
+}
+
+h2{
+	font-family: 'Great Vibes', cursive;
+	font-size: 50px;
+	color: limegreen;
+}
+
+.last-sentence{
+	margin: 0px;
+	
+	border-radius: 20px;
+	color: limegreen;
+	font-weight: bold;
+	width: 900px;
+	margin: 60px auto;
+	text-align: center;
+}
+
+.last-div{
+	background-color: tan;
+	margin: 10px;
+	padding: 10px;
+	border-radius: 4px;
+}
+
+/*font-dec oration permet de souligner, surlignet, etc...*/
+/*bordures= border / style bordure / taille = border-width / border-color*/
+/*styles de bordures: solid_dashed_hidden_ dotted_double_groove_ridge_inset_outset*/
+/*angle bordure (permet arrondir) = border-radius: PIXEL; (METTRE 50% pour avoir un cercle)*/
+/*définir la largeur du texte= width: pixel (ex: 250PX)*/
